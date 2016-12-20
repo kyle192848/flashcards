@@ -11,6 +11,7 @@ var button;
 var input;
 var changeCard;
 var message;
+var img;
 
 // var keyPressed;
 // var keycode;
@@ -26,7 +27,7 @@ function setup() {
   console.log(currentCard.answer);
   input = createInput('');
 var src = currentCard.imageSource;
-var img = createImg(src);
+    img = createImg(src);
         img.class('testImage');
 
 }
@@ -42,10 +43,16 @@ function changeCard() {
   console.log(input.value(),currentCard.answer);
   if (input.value() === currentCard.answer){
     currentCard = random(flashcards);
-
     console.log("good job");
-      }
+      img.attribute("src", currentCard.imageSource);
+
+     }
 }
+
+
+
+
+
 
 
 
