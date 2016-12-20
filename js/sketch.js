@@ -2,7 +2,9 @@ var flashcards = [
     {answer: "漢宮春曉", imageSource:"images/仇英漢宮春曉.jpg"},
     {answer: "清明上河圖", imageSource:"images/宋張擇端清明上河圖.jpg"},
     {answer: "百駿圖", imageSource:"images/朗世寧百駿圖.jpg"},
-    {answer: "廬山高", imageSource:"images/沈周廬山高.jpg"}
+    {answer: "廬山高", imageSource:"images/沈周廬山高.jpg"},
+    {answer: "早春圖", imageSource:"images/郭熙早春圖.jpg"},
+    {answer: "富春山居圖", imageSource:"images/黃公望富春山居圖(子明卷).jpg"}
 ];// You can pick a random card like this:
 var currentCard;
 // Now you can get the artist name like this: currentCard.answer
